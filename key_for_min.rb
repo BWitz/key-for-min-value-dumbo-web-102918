@@ -2,13 +2,13 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  minuend = 500
   if name_hash.length == 0
     return nil
   end
+  array = {}
   name_hash.collect do |key, value|
-    new_key = minuend - value
-      if new_key < 0 
+     array.push(value)
+      if new_key < 
         return nil
       else
         return key

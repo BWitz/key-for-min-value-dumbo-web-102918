@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   end
   array = {}
   name_hash.collect do |key, value|
-     array.push(value)
+     array << value
       if new_key < 
         return nil
       else

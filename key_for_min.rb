@@ -5,10 +5,10 @@ def key_for_min_value(name_hash)
   if name_hash.length == 0
     return nil
   end
-  value_list = {}
+  value_list = []
   name_hash.collect do |key, value|
-     value_list << value
-      if value_list < 
+     value_list.push << value
+       
         return nil
       else
         return key

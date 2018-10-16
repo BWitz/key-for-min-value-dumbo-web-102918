@@ -8,6 +8,7 @@ def key_for_min_value(name_hash)
   s_v = 555
   s_k = ""
   name_hash.each do |key, value|
+    s_v - value
     if value < s_v
       s_v = value
       s_k = key

@@ -12,6 +12,8 @@ def key_for_min_value(name_hash)
       s_v = value
       s_k = key
     end
-    s_v
+    name_hash.pop
+    name_hash.pop
+    s_k
   end
 end
